@@ -7,7 +7,7 @@ import { ProductCard } from "../components/ProductCard";
 import { getProducts } from "../api/product";
 import { useProducts } from "../hooks/useProducts";
 import { Navigation } from "react-native-navigation";
-import { getErrorMessage } from "../utils/getError Message";
+import { getErrorMessage } from "../utils/getErrorMessage";
 
 
 export default function ProductList(prop: { componentId: string }) {
