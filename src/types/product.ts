@@ -19,5 +19,4 @@ export type ProductResponse = {
     total: number
     limit: number
     skip: number
-
 }

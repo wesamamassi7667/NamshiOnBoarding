@@ -3,7 +3,7 @@ import ProductList from "../screens/ProductList";
 
 
 import { QueryClientProvider } from "@tanstack/react-query";
-import { queryClient } from "../services/query_client";
+import { queryClient } from "../services/queryClient";
 import { ProductDetails } from "../screens/ProductDetails";
 
 const ProductListWithProvider = (prop: { componentId: string }) => {

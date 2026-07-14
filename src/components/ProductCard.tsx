@@ -15,7 +15,7 @@ export function ProductCard({ product, onPress }: ProductCardProps) {
         style={{
             flexDirection: 'row',
             marginBottom: 12,
-            marginVertical: 16,
+            marginHorizontal: 16,
             borderWidth: 1,
             borderColor: '#ddd',
             borderRadius: 12,

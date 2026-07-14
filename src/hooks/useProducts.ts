@@ -7,7 +7,6 @@ export const useProducts = () => {
     return useInfiniteQuery({
         queryKey: ['products'],
         queryFn: ({ pageParam = 0 }) => {
-            console.log('soma')
 
             return getProducts(PAGE_SIZE, pageParam)
         },
